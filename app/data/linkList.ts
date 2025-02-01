@@ -1,52 +1,34 @@
 export interface LinkEntry {
-  url: string
-  title: string
-  description: string
+  url: string;
+  title: string;
+  description: string;
 }
 
 export interface Section {
-  title: string
-  slug: string
-  links: LinkEntry[]
+  title: string;
+  slug: string;
+  links: LinkEntry[];
 }
 
 export const linkList: Section[] = [
   {
-    title: "Technology",
-    slug: "tech",
+    title: 'Ausländer',
+    slug: 'politics',
     links: [
       {
-        url: "https://example.com/ai-trends",
-        title: "Latest AI Trends",
+        url: 'https://iab.de/presseinfo/nur-mit-einer-jaehrlichen-nettozuwanderung-von-400-000-personen-bleibt-das-arbeitskraefteangebot-langfristig-konstant/',
+        title:
+          'Nur mit einer jährlichen Nettozuwanderung von 400.000 Personen bleibt das Arbeitskräfteangebot langfristig konstant',
         description:
-          "An in-depth look at the current trends in artificial intelligence, including machine learning advancements and ethical considerations in AI development.",
+          'Eine Studie des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) zeigt, dass Deutschland jährlich 400.000 Zuwanderer benötigt, um den Arbeitskräftebedarf zu decken.',
       },
       {
-        url: "https://example.com/blockchain-future",
-        title: "The Future of Blockchain",
+        url: 'https://verfassungsblog.de/der-mythos-von-der-notlage/',
+        title: 'Der Mythos von der Notlage',
         description:
-          "Exploring the potential applications of blockchain technology beyond cryptocurrencies, including supply chain management and decentralized finance.",
-      },
-    ],
-  },
-  {
-    title: "Politics",
-    slug: "politics",
-    links: [
-      {
-        url: "https://example.com/global-democracy",
-        title: "State of Global Democracy",
-        description:
-          "A comprehensive analysis of democratic systems worldwide, examining current challenges and potential solutions for strengthening democratic institutions.",
-      },
-      {
-        url: "https://example.com/climate-policy",
-        title: "Climate Change Policies",
-        description:
-          "An overview of international climate change policies, their effectiveness, and the political challenges in implementing global environmental agreements.",
+          'Kann man sich eigentlich auf eine "Notlage" berufen, um die Europarecht zu brechen? Ein Beitrag des Verfassungsblogs.',
       },
     ],
   },
   // Add more sections as needed
-]
-
+];
