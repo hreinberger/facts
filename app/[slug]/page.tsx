@@ -2,7 +2,8 @@ import { linkList } from "../data/linkList"
 import { FullSection } from "../components/FullSection"
 import { notFound } from "next/navigation"
 
-export default function SectionPage({ params }: { params: { slug: string } }) {
+export default async function SectionPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const section = linkList.find((s) => s.slug === params.slug)
 
   if (!section) {
