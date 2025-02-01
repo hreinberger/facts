@@ -30,5 +30,16 @@ export const linkList: Section[] = [
       },
     ],
   },
+  {
+    title: 'KI',
+    slug: 'ai',
+    links: [
+      {
+        url: 'https://stratechery.com/2025/deepseek-faq/',
+        title: 'Deepseek FAQ',
+        description: 'Ben Thompson mit einem FAQ zum "Deepseek-Schock".',
+      },
+    ],
+  },
   // Add more sections as needed
 ];
