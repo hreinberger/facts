@@ -13,7 +13,7 @@ export interface Section {
 export const linkList: Section[] = [
   {
     title: 'Ausländer',
-    slug: 'politics',
+    slug: 'auslaender',
     links: [
       {
         url: 'https://iab.de/presseinfo/nur-mit-einer-jaehrlichen-nettozuwanderung-von-400-000-personen-bleibt-das-arbeitskraefteangebot-langfristig-konstant/',
@@ -34,16 +34,23 @@ export const linkList: Section[] = [
         description:
           'Sind Ausländer krimineller als Deutsche? Die polizeiliche Kriminalstatistik scheint das zu belegen. Doch die Zahlen sind mit Vorsicht zu genießen.',
       },
+      {
+        url: 'https://www.spiegel.de/wissenschaft/mensch/migration-friedrich-merz-faellt-auf-den-psychotrick-der-afd-herein-a-f76a4721-bc6f-4a5e-aff8-845eaa45c058?sara_ref=re-xx-cp-sh',
+        title: 'Friedrich Merz fällt auf den Psychotrick der AfD herein',
+        description:
+          'Die SPIEGEL-Online Kolumne von Chris Stöcker kann man immer lesen. Hier geht es darum, wie die CDU langsam aber sicher das Narrativ der AfD übernimmt, Deutschland sei vor allem wegen der Migration ein unsicheres Land. Spoiler Alarm: Nö.',
+      },
     ],
   },
   {
-    title: 'KI',
-    slug: 'ai',
+    title: 'Klima',
+    slug: 'klima',
     links: [
       {
-        url: 'https://stratechery.com/2025/deepseek-faq/',
-        title: 'Deepseek FAQ',
-        description: 'Ben Thompson mit einem FAQ zum "Deepseek-Schock".',
+        url: 'https://www.ipcc.ch/report/ar6/syr/resources/spm-headline-statements',
+        title: 'IPCC Synthesis Report 2023 - Headline Statements',
+        description:
+          'Die absolut kürzeste Zusammenfassung des neuesten IPCC Berichts. Quasi "Klimawandel für Dummies".',
       },
     ],
   },
