@@ -26,7 +26,7 @@ export const linkList: Section[] = [
         url: 'https://verfassungsblog.de/der-mythos-von-der-notlage/',
         title: 'Der Mythos von der Notlage',
         description:
-          'Kann man sich eigentlich auf eine "Notlage" berufen, um die Europarecht zu brechen? Ein Beitrag des Verfassungsblogs.',
+          'Kann man sich eigentlich auf eine "Notlage" berufen, um das Europarecht zu brechen? Das Verfassungsblog zeigt, warum das nicht so einfach ist.',
       },
       {
         url: 'https://mediendienst-integration.de/artikel/die-wichtigsten-fragen-zur-auslaenderkriminalitaet.html',
