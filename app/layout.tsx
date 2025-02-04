@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://fakten.hannesreinberger.de/'),
   title: 'Fakten',
   description:
-    'Auf dieser Seite sammelt Hannes nützliche Links zur Unterstützung seiner Diskussionen',
+    'Hannes sammelt hier nützliche Links zur Unterstützung seiner Diskussionen',
   openGraph: {
     title: 'Fakten',
     description:
-      'Auf dieser Seite sammelt Hannes nützliche Links zur Unterstützung seiner Diskussionen',
+      'Hannes sammelt hier nützliche Links zur Unterstützung seiner Diskussionen',
     url: 'https://fakten.hannesreinberger.de/',
   },
 };
