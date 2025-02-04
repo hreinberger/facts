@@ -16,7 +16,7 @@ export default async function Image() {
       // ImageResponse JSX element
       <div
         style={{
-          fontSize: 128,
+          fontSize: 256,
           background: 'black',
           width: '100%',
           height: '100%',
@@ -24,9 +24,10 @@ export default async function Image() {
           alignItems: 'center',
           justifyContent: 'center',
           color: 'white',
+          marginBottom: '20px',
         }}
       >
-        Hannes&apos; Fakten
+        📖
       </div>
     ),
     // ImageResponse options
