@@ -7,9 +7,16 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fakten.hannesreinberger.de/'),
   title: 'Fakten',
   description:
     'Auf dieser Seite sammelt Hannes nützliche Links zur Unterstützung seiner Diskussionen',
+  openGraph: {
+    title: 'Fakten',
+    description:
+      'Auf dieser Seite sammelt Hannes nützliche Links zur Unterstützung seiner Diskussionen',
+    url: 'https://fakten.hannesreinberger.de/',
+  },
 };
 
 export default function RootLayout({
