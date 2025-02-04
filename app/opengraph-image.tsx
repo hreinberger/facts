@@ -17,7 +17,7 @@ export default async function Image() {
       <div
         style={{
           fontSize: 128,
-          background: 'oklch(.21 .034 264.665)',
+          background: 'black',
           width: '100%',
           height: '100%',
           display: 'flex',
