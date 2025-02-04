@@ -24,7 +24,7 @@ export default function Icon() {
             'linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(0,84,227,1) 35%, rgba(206,0,255,1) 100%)',
         }}
       >
-        🧐
+        📖
       </div>
     ),
     // ImageResponse options

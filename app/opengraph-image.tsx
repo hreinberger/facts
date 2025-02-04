@@ -17,7 +17,7 @@ export default async function Image() {
       <div
         style={{
           fontSize: 128,
-          background: 'white',
+          background: 'oklch(.21 .034 264.665)',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -25,7 +25,7 @@ export default async function Image() {
           justifyContent: 'center',
         }}
       >
-        Fakten
+        Hannes' Fakten
       </div>
     ),
     // ImageResponse options
