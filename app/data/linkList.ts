@@ -40,6 +40,12 @@ export const linkList: Section[] = [
         description:
           'Die SPIEGEL-Online Kolumne von Chris Stöcker kann man immer lesen. Hier geht es darum, wie die CDU langsam aber sicher das Narrativ der AfD übernimmt, Deutschland sei vor allem wegen der Migration ein unsicheres Land. Spoiler Alarm: Nö.',
       },
+      {
+        url: 'https://krautreporter.de/flucht-und-grenzen/5546-es-gibt-keine-politik-die-unerlaubte-migration-stoppen-kann?shared=f1082fa2-419e-467c-92b5-3e9d5b23a16e',
+        title: 'Es gibt keine Politik, die unerlaubte Migration stoppen kann',
+        description:
+          'Die Forschung sagt: Geschlossene Grenzen sind Symbolpolitik. Nur wenn man die deutsche Wirtschaft ruiniert, kommen weniger Migranten.',
+      },
     ],
   },
   {
