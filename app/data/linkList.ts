@@ -23,10 +23,11 @@ export const linkList: Section[] = [
           'Eine Studie des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) zeigt, dass Deutschland jährlich 400.000 Zuwanderer benötigt, um den Arbeitskräftebedarf zu decken.',
       },
       {
-        url: 'https://verfassungsblog.de/der-mythos-von-der-notlage/',
-        title: 'Der Mythos von der Notlage',
+        url: 'https://www.diw.de/de/diw_01.c.935931.de/publikationen/diw_aktuell/2025_0105/deutschland_braucht_eine_nachhaltige_und_effektive_migrations-_und_integrationspolitik.html',
+        title:
+          'DIW: Deutschland braucht eine nachhaltige und effektive Migrations- und Integrationspolitik',
         description:
-          'Kann man sich eigentlich auf eine "Notlage" berufen, um das Europarecht zu brechen? Das Verfassungsblog zeigt, warum das nicht so einfach ist.',
+          'Nochmal eine aktuellere Meldung (Februar 2025) zur Bevölkerungsentwicklung und warum wir langfristig Zuwanderung brauchen.',
       },
       {
         url: 'https://mediendienst-integration.de/artikel/die-wichtigsten-fragen-zur-auslaenderkriminalitaet.html',
