@@ -47,6 +47,12 @@ export const linkList: Section[] = [
         description:
           'Die Forschung sagt: Geschlossene Grenzen sind Symbolpolitik. Nur wenn man die deutsche Wirtschaft ruiniert, kommen weniger Migranten.',
       },
+      {
+        url: 'https://www.ifo.de/publikationen/2025/aufsatz-zeitschrift/steigert-migration-die-kriminalitaet-ein-datenbasierter-blick',
+        title: 'Steigert Migration die Kriminalität? Ein datenbasierter Blick',
+        description:
+          'Das Ifo Institut hat sich die Zahlen angeschaut und kommt zu einem klaren Ergebnis: Nein. "Die Ergebnisse zeigen, dass die höhere Kriminalitätsrate von Ausländern überwiegend durch ortsspezifische Faktoren, etwa ihre Konzentration in Ballungsräumen mit hoher Kriminalitätsdichte, erklärt wird. Ihre Demografie (jünger und männlicher) spielt dagegen eine geringere Rolle. Im Zeitraum 2018-2023 lässt sich kein Zusammenhang zwischen einer Veränderung im regionalen Ausländeranteil und der lokalen Kriminalitätsrate nachweisen. Die Ergebnisse decken sich mit Befunden der internationalen Forschung: (Flucht-) Migration hat keinen systematischen Einfluss auf die Kriminalität im Aufnahmeland."',
+      },
     ],
   },
   {
