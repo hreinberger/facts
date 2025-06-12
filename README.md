@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Facts Collection
+
+A clean, modern web application for organizing and sharing curated links about various topics. Built with Next.js and Tailwind CSS, this project provides an easy way to create a categorized link library with descriptions.
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Managing Content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All link data is stored in the TypeScript file `app/data/linkList.ts`. The data structure is organized into sections, each containing multiple links.
 
-## Learn More
+### How to Add or Edit Links
 
-To learn more about Next.js, take a look at the following resources:
+To add a new link or edit existing ones:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Open `app/data/linkList.ts`
+2. The data is organized as an array of sections, with each section having:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    - `title`: The name of the section
+    - `slug`: URL-friendly version of the title (used for routing)
+    - `links`: Array of link objects
 
-## Deploy on Vercel
+3. Each link object contains:
+    - `url`: The full URL to the resource
+    - `title`: Title of the link
+    - `description`: Brief description of the content
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Example of adding a new link to an existing section:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```typescript
+{
+  title: 'Section Name',
+  slug: 'section-name',
+  links: [
+    // existing links...
+    {
+      url: 'https://example.com/new-resource',
+      title: 'Title of the New Resource',
+      description: 'Brief description about what this resource contains.',
+    }
+  ]
+}
+```
+
+To add a new section, add a new object to the `linkList` array following the same structure.
+
+## Deployment
+
+This project can be easily deployed on Vercel or any other Next.js-compatible hosting platform.
